@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { contactsApi } from './ContactsApi';
+import { contactsApi } from './сontactsApi';
 import { setupListeners } from '@reduxjs/toolkit/query';
 import contactsSlice from './contactsSlice';
 

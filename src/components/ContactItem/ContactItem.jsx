@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useDeleteContactsMutation } from '../../Redux/ContactsApi';
+import { useDeleteContactsMutation } from '../../Redux/сontactsApi';
 import { ItemLi, Button, Link, Img } from './ContactItem.styled';
 
 export const ContactItem = ({ id, name, number, avatar }) => {

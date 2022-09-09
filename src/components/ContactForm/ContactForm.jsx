@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {
   useGetContactsQuery,
   useAddContactsMutation,
-} from '../../Redux/ContactsApi';
+} from '../../Redux/сontactsApi';
 import { Form, Label, Input, Button } from './ContactForm.styled';
 
 export default function ContactForm() {
